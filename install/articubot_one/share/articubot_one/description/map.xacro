@@ -1,0 +1,30 @@
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- Define the static obstacle link -->
+    <link name="obstacle_box">
+        <visual>
+            <origin xyz="5 2 2" rpy="0 0 0"/> <!-- Position of the obstacle -->
+            <geometry>
+                <box size="2 2 2"/> <!-- Size of the obstacle -->
+            </geometry>
+            <material name="black"/> <!-- Color of the obstacle -->
+        </visual>
+        <collision>
+            <origin xyz="5 2 2" rpy="0 0 0"/> <!-- Position of the obstacle -->
+            <geometry>
+                <box size="2 2 2"/> <!-- Size of the obstacle -->
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- Define a static joint to keep the box fixed in place -->
+    <joint name="obstacle_joint" type="fixed">
+        <parent link="world"/> <!-- Attach it to the world frame -->
+        <child link="obstacle_box"/>
+        <origin xyz="5 2 2" rpy="0 0 0"/> <!-- Position of the obstacle -->
+    </joint>
+
+    <!-- Optionally add the obstacle to the Gazebo simulation -->
+    <gazebo reference="obstacle_box">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+</robot>

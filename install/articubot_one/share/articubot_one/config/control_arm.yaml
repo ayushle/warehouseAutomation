@@ -1,0 +1,45 @@
+
+# controller_manager:
+#   ros__parameters:
+#     update_rate: 50  # Update rate in Hz
+
+#     joint_trajectory_controller:
+#       type: joint_trajectory_controller/JointTrajectoryController
+
+#     joint_state_broadcaster:
+#       type: joint_trajectory_broadcaster/JointTrajectoryBroadcaster
+
+# joint_trajectory_controller:
+#   ros__parameters:
+#     joints:
+#       - linear_actuator  # Your prismatic joint name
+
+#     interface_name: position
+#     command_interfaces:
+#       - position  # Controlling the position of the linear actuator
+
+#     state_interfaces:
+#       - position
+#       - velocity
+
+controller_manager:
+  ros__parameters:
+    update_rate: 50  # Update rate in Hz
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    joint_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+joint_trajectory_controller:
+  ros__parameters:
+    joints:
+      - linear_actuator  # Your prismatic joint name
+
+    command_interfaces:
+      - position  # Controlling the position of the linear actuator
+
+    state_interfaces:
+      - position
+      - velocity
