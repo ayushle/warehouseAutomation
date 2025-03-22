@@ -1,0 +1,11 @@
+[0.007s] Invoking command in '/home/ayush/Documents/ros_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/ros_ws/build/articubot_one -- -j12 -l12
+[0.044s] [ 75%] Built target keyboard_control
+[0.045s] [ 75%] [32mBuilding CXX object CMakeFiles/joint_publisher.dir/src/joint_publisher.cpp.o[0m
+[0.179s] [01m[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:18:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/PoseStamped.hpp: No such file or directory
+[0.179s]    18 | #include [01;31m[K"geometry_msgs/msg/PoseStamped.hpp"[m[K
+[0.179s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.179s] compilation terminated.
+[0.180s] gmake[2]: *** [CMakeFiles/joint_publisher.dir/build.make:76: CMakeFiles/joint_publisher.dir/src/joint_publisher.cpp.o] Error 1
+[0.180s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/joint_publisher.dir/all] Error 2
+[0.180s] gmake: *** [Makefile:146: all] Error 2
+[0.182s] Invoked command in '/home/ayush/Documents/ros_ws/build/articubot_one' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/ros_ws/build/articubot_one -- -j12 -l12

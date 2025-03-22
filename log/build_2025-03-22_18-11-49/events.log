@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000324] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.000411] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.005471] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.005811] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[0.006324] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ayush/Documents/ros_ws/build/articubot_one', '--', '-j12', '-l12'], 'cwd': '/home/ayush/Documents/ros_ws/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ayush'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ayush'), ('OLDPWD', '/home/ayush'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2026'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ayush/Documents/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ayush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ayush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ayush/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ayush:@/tmp/.ICE-unix/1999,unix/ayush:/tmp/.ICE-unix/1999'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9c4fd88b_b3d3_42c4_bcde_955864f3d75b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.182'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ayush/Documents/ros_ws/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ayush/Documents/ros_ws/build/articubot_one'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ayush/Documents/ros_ws/install/articubot_one:/opt/ros/humble')]), 'shell': False}
+[0.045000] (articubot_one) StdoutLine: {'line': b'[ 75%] Built target keyboard_control\n'}
+[0.045212] (articubot_one) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/joint_publisher.dir/src/joint_publisher.cpp.o\x1b[0m\n'}
+[0.099905] (-) TimerEvent: {}
+[0.200251] (-) TimerEvent: {}
+[0.300509] (-) TimerEvent: {}
+[0.400780] (-) TimerEvent: {}
+[0.501061] (-) TimerEvent: {}
+[0.601324] (-) TimerEvent: {}
+[0.701596] (-) TimerEvent: {}
+[0.801873] (-) TimerEvent: {}
+[0.902203] (-) TimerEvent: {}
+[1.002460] (-) TimerEvent: {}
+[1.102734] (-) TimerEvent: {}
+[1.203009] (-) TimerEvent: {}
+[1.303296] (-) TimerEvent: {}
+[1.403555] (-) TimerEvent: {}
+[1.503830] (-) TimerEvent: {}
+[1.604109] (-) TimerEvent: {}
+[1.606927] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:71:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat64_multi_array\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.612419] (articubot_one) StderrLine: {'line': b'   71 |     void goal_pos_callback(const std_msgs::msg::\x1b[01;31m\x1b[Kfloat64_multi_array\x1b[m\x1b[K::SharedPtr msg)\n'}
+[1.612472] (articubot_one) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.612509] (articubot_one) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[KFloat64MultiArray\x1b[m\x1b[K\n'}
+[1.612546] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:71:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.612584] (articubot_one) StderrLine: {'line': b'   71 |     void goal_pos_callback(const std_msgs::msg::float64_multi_array::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K)\n'}
+[1.612621] (articubot_one) StderrLine: {'line': b'      |                                                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.612657] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:71:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.612692] (articubot_one) StderrLine: {'line': b'   71 |     void goal_pos_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst std_msgs::msg::float64_multi_array::SharedPtr\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kmsg\x1b[m\x1b[K)\n'}
+[1.612727] (articubot_one) StderrLine: {'line': b'      |                           \x1b[34m\x1b[K~\x1b[m\x1b[K                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[1.612763] (articubot_one) StderrLine: {'line': b'      |                                                                               \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.612798] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:71:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.612834] (articubot_one) StderrLine: {'line': b'   71 |     void goal_pos_callback(const std_msgs::msg::float64_multi_array::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K msg)\n'}
+[1.612874] (articubot_one) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.612909] (articubot_one) StderrLine: {'line': b'      |                                                                               \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.612944] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:71:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.612980] (articubot_one) StderrLine: {'line': b'   71 |     void goal_pos_callback(const std_msgs::msg::float64_multi_array::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K)\n'}
+[1.613015] (articubot_one) StderrLine: {'line': b'      |                                                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.634326] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:100:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat64_multi_array\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.634476] (articubot_one) StderrLine: {'line': b'  100 |     rclcpp::Subscription<std_msgs::msg::\x1b[01;31m\x1b[Kfloat64_multi_array\x1b[m\x1b[K>::SharedPtr goal_pos_sub_;\n'}
+[1.634514] (articubot_one) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.634550] (articubot_one) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[KFloat64MultiArray\x1b[m\x1b[K\n'}
+[1.634584] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:100:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.634619] (articubot_one) StderrLine: {'line': b'  100 |     rclcpp::Subscription<std_msgs::msg::float64_multi_array\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr goal_pos_sub_;\n'}
+[1.634652] (articubot_one) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.634687] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:100:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[1.634721] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:100:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[1.634766] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:100:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[1.634800] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:100:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.634834] (articubot_one) StderrLine: {'line': b'  100 |     rclcpp::Subscription<std_msgs::msg::float64_multi_array>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K goal_pos_sub_;\n'}
+[1.634870] (articubot_one) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.634903] (articubot_one) StderrLine: {'line': b'      |                                                                        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.636144] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:100:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_pos_sub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.636196] (articubot_one) StderrLine: {'line': b'  100 |     rclcpp::Subscription<std_msgs::msg::float64_multi_array>::SharedPtr \x1b[01;31m\x1b[Kgoal_pos_sub_\x1b[m\x1b[K;\n'}
+[1.636230] (articubot_one) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.638631] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:104:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose_stamped\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPoseStamped\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.638683] (articubot_one) StderrLine: {'line': b'  104 |     rclcpp::Publisher<geometry_msgs::msg::\x1b[01;31m\x1b[Kpose_stamped\x1b[m\x1b[K>::SharedPtr goal_pos_pub_;\n'}
+[1.638717] (articubot_one) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.638751] (articubot_one) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[KPoseStamped\x1b[m\x1b[K\n'}
+[1.638783] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:104:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.638816] (articubot_one) StderrLine: {'line': b'  104 |     rclcpp::Publisher<geometry_msgs::msg::pose_stamped\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr goal_pos_pub_;\n'}
+[1.638848] (articubot_one) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.638880] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:104:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.638914] (articubot_one) StderrLine: {'line': b'  104 |     rclcpp::Publisher<geometry_msgs::msg::pose_stamped>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K goal_pos_pub_;\n'}
+[1.638979] (articubot_one) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.639041] (articubot_one) StderrLine: {'line': b'      |                                                                   \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.639104] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:104:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kint position_publisher::SharedPtr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.639172] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:100:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kint position_publisher::SharedPtr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.639212] (articubot_one) StderrLine: {'line': b'  100 |     rclcpp::Subscription<std_msgs::msg::float64_multi_array>::\x1b[01;36m\x1b[KSharedPtr\x1b[m\x1b[K goal_pos_sub_;\n'}
+[1.639245] (articubot_one) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.640458] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:104:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_pos_pub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.640502] (articubot_one) StderrLine: {'line': b'  104 |     rclcpp::Publisher<geometry_msgs::msg::pose_stamped>::SharedPtr \x1b[01;31m\x1b[Kgoal_pos_pub_\x1b[m\x1b[K;\n'}
+[1.640539] (articubot_one) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.651274] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kposition_publisher::position_publisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.651386] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:30:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_pos_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Karm_pos_sub_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.651423] (articubot_one) StderrLine: {'line': b'   30 |         \x1b[01;31m\x1b[Kgoal_pos_sub_\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::float64_multi_array>(\n'}
+[1.651462] (articubot_one) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.651495] (articubot_one) StderrLine: {'line': b'      |         \x1b[32m\x1b[Karm_pos_sub_\x1b[m\x1b[K\n'}
+[1.651527] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:30:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat64_multi_array\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KFloat64MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.651562] (articubot_one) StderrLine: {'line': b'   30 |         goal_pos_sub_ = this->create_subscription<std_msgs::msg::\x1b[01;31m\x1b[Kfloat64_multi_array\x1b[m\x1b[K>(\n'}
+[1.651594] (articubot_one) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.651626] (articubot_one) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[KFloat64MultiArray\x1b[m\x1b[K\n'}
+[1.651657] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:31:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGoalPublisher\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.651695] (articubot_one) StderrLine: {'line': b'   31 |             "/goal_pos", 10, std::bind(&\x1b[01;31m\x1b[KGoalPublisher\x1b[m\x1b[K::goal_pos_callback, this, std::placeholders::_1));\n'}
+[1.651729] (articubot_one) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.656852] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:35:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_pos_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.656921] (articubot_one) StderrLine: {'line': b'   35 |         \x1b[01;31m\x1b[Kgoal_pos_pub_\x1b[m\x1b[K = this->create_publisher<geometry_msgs::msg::pose_stamped>("/goal_pose", 10);\n'}
+[1.656955] (articubot_one) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.657016] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:35:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose_stamped\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPoseStamped\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.657063] (articubot_one) StderrLine: {'line': b'   35 |         goal_pos_pub_ = this->create_publisher<geometry_msgs::msg::\x1b[01;31m\x1b[Kpose_stamped\x1b[m\x1b[K>("/goal_pose", 10);\n'}
+[1.657097] (articubot_one) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.657133] (articubot_one) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[KPoseStamped\x1b[m\x1b[K\n'}
+[1.657176] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:35:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kposition_publisher::create_publisher<<expression error> >(const char [11], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.657214] (articubot_one) StderrLine: {'line': b'   35 |         goal_pos_pub_ = \x1b[01;31m\x1b[Kthis->create_publisher<geometry_msgs::msg::pose_stamped>("/goal_pose", 10)\x1b[m\x1b[K;\n'}
+[1.657247] (articubot_one) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.657293] (articubot_one) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.657327] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.657360] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.657392] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.657424] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:11\x1b[m\x1b[K:\n'}
+[1.657455] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.657494] (articubot_one) StderrLine: {'line': b'   73 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_publisher(\n'}
+[1.657526] (articubot_one) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.657557] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.657589] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/ros_ws/src/articubot_one/src/joint_publisher.cpp:35:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.657621] (articubot_one) StderrLine: {'line': b'   35 |         goal_pos_pub_ = \x1b[01;31m\x1b[Kthis->create_publisher<geometry_msgs::msg::pose_stamped>("/goal_pose", 10)\x1b[m\x1b[K;\n'}
+[1.657656] (articubot_one) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.704218] (-) TimerEvent: {}
+[1.804493] (-) TimerEvent: {}
+[1.904766] (-) TimerEvent: {}
+[2.005042] (-) TimerEvent: {}
+[2.105377] (-) TimerEvent: {}
+[2.205706] (-) TimerEvent: {}
+[2.305991] (-) TimerEvent: {}
+[2.406351] (-) TimerEvent: {}
+[2.506684] (-) TimerEvent: {}
+[2.607041] (-) TimerEvent: {}
+[2.707419] (-) TimerEvent: {}
+[2.807701] (-) TimerEvent: {}
+[2.908026] (-) TimerEvent: {}
+[3.008292] (-) TimerEvent: {}
+[3.108616] (-) TimerEvent: {}
+[3.208895] (-) TimerEvent: {}
+[3.309196] (-) TimerEvent: {}
+[3.379148] (articubot_one) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/joint_publisher.dir/build.make:76: CMakeFiles/joint_publisher.dir/src/joint_publisher.cpp.o] Error 1\n'}
+[3.379330] (articubot_one) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/joint_publisher.dir/all] Error 2\n'}
+[3.379403] (articubot_one) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.381388] (articubot_one) CommandEnded: {'returncode': 2}
+[3.388544] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 2}
+[3.398870] (-) EventReactorShutdown: {}

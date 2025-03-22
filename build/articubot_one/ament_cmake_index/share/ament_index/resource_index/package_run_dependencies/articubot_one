@@ -1,1 +1,1 @@
-rclcpp;trajectory_msgs;std_msgs;sensor_msgs;ament_lint_auto;ament_lint_common
+rclcpp;trajectory_msgs;geometry_msgs;std_msgs;sensor_msgs;ament_lint_auto;ament_lint_common

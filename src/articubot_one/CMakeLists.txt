@@ -22,6 +22,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(trajectory_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
@@ -29,7 +30,7 @@ add_executable(joint_publisher src/joint_publisher.cpp)
 add_executable(keyboard_control src/keyboard_control.cpp)
 
 #ament_target_dependencies(joint_publisher rclcpp trajectory_msgs)
-ament_target_dependencies(joint_publisher rclcpp std_msgs sensor_msgs trajectory_msgs)
+ament_target_dependencies(joint_publisher rclcpp std_msgs sensor_msgs trajectory_msgs geometry_msgs)
 ament_target_dependencies(keyboard_control rclcpp std_msgs)
 install(TARGETS 
   keyboard_control 

@@ -1,0 +1,2 @@
+Invoking command in '/home/ayush/Documents/ros_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/ros_ws/build/articubot_one -- -j12 -l12
+Invoked command in '/home/ayush/Documents/ros_ws/build/articubot_one' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/ros_ws/build/articubot_one -- -j12 -l12

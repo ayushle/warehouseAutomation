@@ -16,7 +16,7 @@
 /home/ayush/Documents/ros_ws/install/articubot_one/share/articubot_one/description/lidar.xacro
 /home/ayush/Documents/ros_ws/install/articubot_one/share/articubot_one/description/org_robot_core.xacro
 /home/ayush/Documents/ros_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
-/home/ayush/Documents/ros_ws/install/articubot_one/share/articubot_one/launch/nav.launch.py
+/home/ayush/Documents/ros_ws/install/articubot_one/share/articubot_one/launch/nav.py
 /home/ayush/Documents/ros_ws/install/articubot_one/share/articubot_one/launch/slam.launch.py
 /home/ayush/Documents/ros_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
 /home/ayush/Documents/ros_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world
